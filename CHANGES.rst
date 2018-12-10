@@ -8,6 +8,13 @@ https://zope.readthedocs.io/en/2.13/CHANGES.html
 For the change log of the alpha versions see
 https://github.com/zopefoundation/Zope/blob/4.0a6/CHANGES.rst
 
+4.0b7.post1 (unreleased)
+------------------------
+
+- Fix closing newly created request before processing it after a retryable
+  error has occurred.
+  (`#413 <https://github.com/zopefoundation/Zope/issues/413>`_)
+
 4.0b7 (2018-10-30)
 ------------------
 
